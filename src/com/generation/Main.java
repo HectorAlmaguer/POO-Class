@@ -20,5 +20,7 @@ public class Main {
 
 		lomito2.caracteristicas();
 		lomito2.jugar();
+
+		Perro lomito3 = new Perro("milaneso","Husky",4,"Gigante")
     }
 }

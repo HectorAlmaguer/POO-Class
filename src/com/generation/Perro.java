@@ -9,7 +9,7 @@ public class Perro {
 
     public void caracteristicas(){
         System.out.println("Hola mi nombre es "+ this.nombre+", soy de raza "+this.raza+" tengo "+this.edad+
-                " soy de tamaño "+this.tamanio);
+                " años y soy de tamaño "+this.tamanio);
     }
     public void comer(){
         System.out.println("Estoy comiendo");
@@ -19,6 +19,16 @@ public class Perro {
     }
     public void jugar(){
         System.out.println("Estoy jugando");
+    }
+    public Perro (){}
+    public Perro (String nombre){
+        this.nombre = nombre;
+    }
+    public Perro (String nombre, String raza, int edad, String tamanio){
+        this.nombre= nombre;
+        this.raza = raza;
+        this.edad = edad;
+        this.tamanio = tamanio;
     }
 
 }
